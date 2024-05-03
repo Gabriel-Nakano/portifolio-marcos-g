@@ -19,6 +19,10 @@ body {
     margin: 0 auto;
 }
 
+.flex{  
+    display: flex;
+}
+
 /* ESTILO CABEÇALHO */
 
 .logo img {  
@@ -68,5 +72,68 @@ header .btn-contato button{
     border-radius: 30px;
     cursor: pointer;
     color: aliceblue;
-    background-color: rgb(153, 52, 247);
+    background-color: rgb(85, 14, 250);
+}
+
+/* TOPO DO SITE */
+
+section.topo-do-site{   
+    padding: 40px 4%;
+
+}
+
+section.topo-do-site .flex{ 
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{   
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.topo-do-site p{   
+    color: aliceblue;
+    text-align: justify;
+}
+
+main .btn-contato button{    
+    margin-top: 40px;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: rgb(85, 14, 250);
+}
+
+.txt-topo-site span { 
+    color: rgb(85, 14, 250);
+    font-size: 100px;
+}
+
+.Hello {    
+    font-weight: 700;
+}
+
+.img-topo-site img {    
+    width: 600px;
+}
+
+.topo-do-site .img-topo-site img {  
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {    
+    0%{ 
+        top: 0;
+    }
+    100%{   
+        top: 30px;
+    }
 }
