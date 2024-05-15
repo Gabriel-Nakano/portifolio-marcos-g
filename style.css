@@ -129,6 +129,52 @@ main .btn-contato button{
     animation: flutuar 2s ease-in-out infinite alternate;
 }
 
+.topo-do-site2 p{   
+    color: aliceblue;
+    text-align:center
+}
+
+.especialidades {   
+    text-align: center;
+}
+
+section.especialidades .flex {   
+    gap: 60px;
+}
+
+.topo-do-site .especialidades { 
+    padding-top: 50px;
+}
+
+.topo-do-site .especialidades { 
+    padding-top: 50px;
+}
+
+.especialidades .especialidades-caixa{  
+    color: aliceblue;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 80px;
+    transition: .2s;
+}
+
+.especialidades .especialidades-caixa p{
+    text-align: center;
+}
+
+.especialidades .especialidades-caixa:hover{    
+    transform: scale(1.05);
+    box-shadow: 0 0 8px rgba(105, 41, 255, 0.822);
+}
+.especialidades .especialidades-caixa h1{
+    font-size: 25px;
+    margin: 15px 0;
+}
+
+.especialidades .especialidades-caixa i{
+    font-size: 70px;
+    color: rgb(85, 14, 250);
+}  
 @keyframes flutuar {    
     0%{ 
         top: 0;
